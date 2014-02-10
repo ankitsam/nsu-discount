@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    </default>
+    <nsu_index_index>
+        <reference name="content">
+            <block type="nsu/nsu" name="nsu" template="nsu/nsu.phtml" />
+        </reference>
+    </nsu_index_index>
+	<checkout_cart_index>
+		<reference name="content">
+			<reference name="checkout.cart">
+				<block type="nsu/nsu" name="nsu.coupon" as="nsucoupon" template="nsu/coupon.phtml"/>
+			</reference>
+		</reference>
+	</checkout_cart_index>
+</layout> 

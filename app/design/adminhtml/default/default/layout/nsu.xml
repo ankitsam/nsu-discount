@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <nsu_adminhtml_nsu_index>
+        <reference name="content">
+            <block type="nsu/adminhtml_nsu" name="nsu" />
+        </reference>
+    </nsu_adminhtml_nsu_index>
+</layout>

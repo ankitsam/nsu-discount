@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sharmasoft_NSU>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Sharmasoft_NSU>
+    </modules>
+</config> 
